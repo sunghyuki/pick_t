@@ -21,6 +21,7 @@
             android:visibility="visible" />
 
         <TextView
+            android:fontFamily="@font/font"
             android:id="@+id/chat_nick"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -52,6 +53,7 @@
             android:orientation="horizontal">
 
             <EditText
+                android:fontFamily="@font/font"
                 android:id="@+id/editTextTextMultiLine"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -62,6 +64,7 @@
                 android:maxLines="5" />
 
             <Button
+                android:fontFamily="@font/font"
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

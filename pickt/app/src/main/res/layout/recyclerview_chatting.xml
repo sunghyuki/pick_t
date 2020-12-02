@@ -12,6 +12,7 @@
         android:orientation="horizontal">
 
         <TextView
+            android:fontFamily="@font/font"
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
