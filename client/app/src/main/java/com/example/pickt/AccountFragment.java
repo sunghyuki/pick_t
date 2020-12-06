@@ -24,6 +24,7 @@ public class AccountFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intentLoadActivity = new Intent(getActivity(), RegisterActivity.class);
+                intentLoadActivity.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intentLoadActivity);
             }
         });
