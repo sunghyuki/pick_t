@@ -11,9 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+<<<<<<< HEAD
         <activity android:name=".ChattingActivity" android:label="채팅액티비티"></activity>
         <activity android:name=".RegisterActivity"></activity>
         <activity android:name=".MainActivity">
+=======
+        <activity android:name=".SignUpActivity"/>
+        <activity android:name=".LoginActivity">
+>>>>>>> sunghyuki2
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
