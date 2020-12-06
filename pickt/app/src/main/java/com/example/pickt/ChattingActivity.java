@@ -45,7 +45,7 @@ public class ChattingActivity extends AppCompatActivity {
         Intent intent=getIntent();
         String text=intent.getStringExtra("nickname");
         nickname.setText(text);
-        try {
+       /* try {
             URL url=new URL("http",
                     "localhost",
                     8005,
@@ -54,7 +54,7 @@ public class ChattingActivity extends AppCompatActivity {
             chatSocket.connect();
         } catch (MalformedURLException | URISyntaxException e) {
             e.printStackTrace();
-        }
+        }*/
 
 
 
